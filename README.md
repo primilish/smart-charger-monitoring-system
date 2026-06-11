@@ -50,8 +50,11 @@ The prototype successfully monitored charging parameters and provided notificati
 ├── arduino/
 │   └── chargerfix.ino
 ├── images/
-│   ├── hardware.jpeg
-│   └── soc_vs_time_detailed.png.png
+|   ├── hardware.jpeg
+|   ├── power_profile.png
+|   ├── current_profile.png
+|   ├── interruption.png
+|   └── soc_vs_time_detailed.png
 ├── README.md
 └── .gitignore
 ```
