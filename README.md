@@ -34,13 +34,13 @@ Conventional charging methods often provide limited information regarding chargi
 
 ## Prototype
 
-![Prototype](images/prototype.jpg)
+![Prototype](images/hardware.jpeg)
 
 ## Results
 
 ### Charging Performance Analysis
 
-![Charging Performance](images/charging_graph.png)
+![Charging Performance](images/soc_vs_time_detailed.png)
 
 The prototype successfully monitored charging parameters and provided notifications when charging was completed. Experimental results were analyzed and compared against conventional charging methods to evaluate charging efficiency and system performance.
 
@@ -48,10 +48,10 @@ The prototype successfully monitored charging parameters and provided notificati
 
 ```text
 ├── arduino/
-│   └── smart_charger.ino
+│   └── chargerfix.ino
 ├── images/
-│   ├── prototype.jpg
-│   └── charging_graph.png
+│   ├── hardware.jpeg
+│   └── soc_vs_time_detailed.png.png
 ├── README.md
 └── .gitignore
 ```
